@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<title>dd</title>
+<style type="text/css">
+.zone{
+    position:relative;
+    width:300px;
+    margin:auto;
+}
+.zone span{
+    position:absolute;
+    z-index:990;
+    top:20px;/*上下距离*/
+    left:-100px;/*左右距离*/
+    display:none;
+}
+</style>
+</head>
+<body>
+<div class="zone">
+    <span id="erweitu"><img src="pintu/images/man.jpg" width="300" height="300" border="0" /></span>
+    <p id="pic">扫描</p>
+</div>
+<script language="javascript">
+//原生写法
+document.getElementById("pic").onmouseover = function(){
+    document.getElementById("erweitu").style.display='block';
+}
+document.getElementById("pic").onmouseout = function(){
+    document.getElementById("erweitu").style.display='none';
+}
+ 
+
+</script>
+</body>
+</html>
+
+
+

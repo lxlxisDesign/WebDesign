@@ -1,0 +1,2 @@
+git config --global user.name "lxlxis"
+git config --global user.email "livelxlx@hotmail.com"
